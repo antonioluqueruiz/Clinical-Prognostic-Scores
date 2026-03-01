@@ -22,8 +22,8 @@ The analysis is conducted using the **"Heart Failure Prediction from Clinical an
 * 📁 **`data/`**: 
     * `heart_failure_zigong_data.csv`: Clinical dataset from PhysioNet used for the study.
 * 📁 **`docs/`**: 
-    * `Master_Thesis_Antonio_Luque.pdf`: Complete written dissertation (LaTeX-generated).
-    * `Thesis_Defense_Beamer.pdf`: Summary presentation slides (Beamer-generated).
+    * `Master_Thesis_Antonio_Luque.pdf`: Complete written dissertation in spanish (LaTeX-generated).
+    * `Thesis_Defense_Beamer.pdf`: Summary presentation slides in spanish (Beamer-generated).
 * 📄 **`LICENSE`**: MIT License.
 
 ## 🚀 Key Insights
