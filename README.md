@@ -37,6 +37,30 @@ The analysis is conducted using the **"Heart Failure Prediction from Clinical an
 1.  **Missing Data**: Successfully handled missing clinical values using **MICE** (Multivariate Imputation by Chained Equations) to preserve statistical power.
 2.  **Predictive Accuracy**: The final model demonstrates robust **Discrimination (AUC)** and **Calibration (Hosmer-Lemeshow)**, effectively predicting 6-month mortality risk.
 3.  **Clinical Translation**: Logistic coefficients were scaled into an integer-based **Score**, making the model ready for real-world clinical use.
+## 🖼️ Visual Insights & Model Validation
 
+This section showcases the core graphical outputs of the project, highlighting both the descriptive clinical data and the rigorous statistical validation of the predictive model.
+
+### 📈 Statistical Performance (Model Accuracy)
+To ensure medical reliability, the model was subjected to a dual-validation process:
+
+* **ROC Curve Analysis**: Used to evaluate the model's discriminative ability. The **AUC (Area Under the Curve)** demonstrates high precision in distinguishing between survival outcomes.
+* **Calibration Plot**: This graph confirms the agreement between the predicted probabilities and the actual observed mortality, ensuring the score remains reliable across all risk deciles.
+
+| ROC Curve | Calibration Plot |
+| :---: | :---: |
+| ![ROC Curve](./graphics/roc_curve.png) | ![Calibration Graphic](./graphics/calibration_graphic.png) |
+
+### 📊 Interactive Dashboards (Business Intelligence)
+The following interfaces were designed to translate mathematical complexity into intuitive clinical decision-making tools:
+
+* **Clinical Cohort Explorer**: A comprehensive view of the 2,008-patient dataset, featuring biomarker stratification (Creatinine/Urea), NYHA functional class distribution, and etiology treemaps.
+* **HF-Scorecard & Risk Calculator**: An operational tool that allows clinicians to input patient data and instantly receive a quantitative 180-day mortality risk percentage.
+
+| Clinical Overview | Risk Scorecard |
+| :---: | :---: |
+| ![BI Dashboard](./graphics/bi_dashboard.png) | ![BI Dashboard Scores](./graphics/bi_dashboard2.png) |
+
+> **Note**: For a full interactive experience, please refer to the `.pbix` files located in the `/dashboards` directory.
 ---
 *Developed by Antonio Luque Ruiz - University of Salamanca.*
