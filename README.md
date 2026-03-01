@@ -19,7 +19,7 @@ The analysis is conducted using the **"Heart Failure Prediction from Clinical an
 ## 📂 Repository Structure
 * 📁 **`analysis/`**: 
     * `Prognostic_Model_Pipeline.R`: End-to-end R script including data preprocessing, feature selection, and model calibration.
-* 📁 **`Data/`**: 
+* 📁 **`data/`**: 
     * `heart_failure_zigong_data.csv`: Clinical dataset from PhysioNet used for the study.
 * 📁 **`docs/`**: 
     * `Master_Thesis_Antonio_Luque.pdf`: Complete written dissertation (LaTeX-generated).
