@@ -26,7 +26,7 @@ The analysis is conducted using the **"Heart Failure Prediction from Clinical an
 * 📁 **`data/`**: 
     * `heart_failure_zigong_data.csv`: Clinical dataset from PhysioNet used for the study.
 * 📁 **`docs/`**: 
-    * `Master_Thesis_Antonio_Luque.pdf`: Complete written dissertation in Spanish (LaTeX-generated).
+    * `Master_Thesis.pdf`: Complete written dissertation in Spanish (LaTeX-generated).
     * `Thesis_Defense_Beamer.pdf`: Summary presentation slides in Spanish (Beamer-generated).
 * 📁 **`graphics/`**:
     * `roc_curve.png`: Visual representation of model discrimination (AUC).
