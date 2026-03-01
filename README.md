@@ -17,9 +17,11 @@ The analysis is conducted using the **"Heart Failure Prediction from Clinical an
 * **Standards**: Following **TRIPOD** guidelines for transparent reporting of multivariable prediction models.
 
 ## 📂 Repository Structure
-* 📁 **`Analysis/`**: 
+* 📁 **`analysis/`**: 
     * `Prognostic_Model_Pipeline.R`: End-to-end R script including data preprocessing, feature selection, and model calibration.
-* 📁 **`Docs/`**: 
+* 📁 **`Data/`**: 
+    * `heart_failure_zigong_data.csv`: Clinical dataset from PhysioNet used for the study.
+* 📁 **`docs/`**: 
     * `Master_Thesis_Antonio_Luque.pdf`: Complete written dissertation (LaTeX-generated).
     * `Thesis_Defense_Beamer.pdf`: Summary presentation slides (Beamer-generated).
 * 📄 **`LICENSE`**: MIT License.
