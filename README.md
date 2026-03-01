@@ -17,13 +17,20 @@ The analysis is conducted using the **"Heart Failure Prediction from Clinical an
 * **Standards**: Following **TRIPOD** guidelines for transparent reporting of multivariable prediction models.
 
 ## 📂 Repository Structure
+
 * 📁 **`analysis/`**: 
     * `Prognostic_Model_Pipeline.R`: End-to-end R script including data preprocessing, feature selection, and model calibration.
+* 📁 **`dashboards/`**:
+    * `bi_dashboard.pbix`: Exploratory Data Analysis (EDA) dashboard for population clinical insights.
+    * `bi_scores.pbix`: Clinical Decision Support Tool based on the developed scoring system.
 * 📁 **`data/`**: 
     * `heart_failure_zigong_data.csv`: Clinical dataset from PhysioNet used for the study.
 * 📁 **`docs/`**: 
-    * `Master_Thesis_Antonio_Luque.pdf`: Complete written dissertation in spanish (LaTeX-generated).
-    * `Thesis_Defense_Beamer.pdf`: Summary presentation slides in spanish (Beamer-generated).
+    * `Master_Thesis_Antonio_Luque.pdf`: Complete written dissertation in Spanish (LaTeX-generated).
+    * `Thesis_Defense_Beamer.pdf`: Summary presentation slides in Spanish (Beamer-generated).
+* 📁 **`graphics/`**:
+    * `roc_curve.png`: Visual representation of model discrimination (AUC).
+    * `calibration_graphic.png`: Assessment of agreement between predicted and observed probabilities.
 * 📄 **`LICENSE`**: MIT License.
 
 ## 🚀 Key Insights
